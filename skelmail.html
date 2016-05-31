@@ -1,0 +1,281 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html lang="es" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Skeleton HTML-CSS Email v.1.1</title>
+<!-- MIT License. Author: Cikeron 2016 -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge"> <!-- enable media queries for windows phone 8 -->
+  <meta name="format-detection" content="telephone=no"> <!-- disable auto telephone linking in iOS -->
+
+  <!--NO FUNCIONA EN TODOS LOS GESTORES DE CORREO link rel="stylesheet" type="text/css" href="divimages.css"-->
+
+<style type="text/css">
+/* Para jugar con el CSS*/
+body {
+margin: 0;
+padding: 0;
+-ms-text-size-adjust: 100%;
+-webkit-text-size-adjust: 100%;
+}
+table {
+border-spacing: 0;
+}
+table td {
+border-collapse: collapse;
+}
+.ExternalClass {
+width: 100%;
+}
+.ExternalClass,
+.ExternalClass p,
+.ExternalClass span,
+.ExternalClass font,
+.ExternalClass td,
+.ExternalClass div {
+line-height: 100%;
+}
+.ReadMsgBody {
+width: 100%;
+background-color: #ebebeb;
+}
+table {
+mso-table-lspace: 0pt;
+mso-table-rspace: 0pt;
+}
+img {
+-ms-interpolation-mode: bicubic;
+}
+.yshortcuts a {
+border-bottom: none !important;
+}
+@media screen and (max-width: 599px) {
+.force-row,
+.container {
+width: 100% !important;
+max-width: 100% !important;
+}
+}
+@media screen and (max-width: 400px) {
+.container-padding {
+padding-left: 12px !important;
+padding-right: 12px !important;
+}
+}
+.ios-footer a {
+color: #aaaaaa !important;
+text-decoration: underline;
+}
+
+</style>
+</head><body style="margin: 0pt; padding: 0pt; background-color: rgb(240, 240, 240);" leftmargin="0" topmargin="0" marginheight="0" marginwidth="0">
+<table id="inicio" border="0" cellpadding="0" cellspacing="0" height="100%" width="100%">
+<tbody><tr>
+<td style="padding: 10px 0pt 30px;" align="center" valign="top">
+<table class="container" style="border: 1px solid rgb(204, 204, 204); width: 600px; max-width: 600px; border-collapse: collapse;" border="0" cellpadding="0" cellspacing="0" width="600">
+<tbody><tr>
+<td class="container-padding content" style="padding: 12px 24px;" align="left" bgcolor="#f0f0ff">
+<!--[if mso]>
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr><td width="50%" valign="top"><![endif]-->
+<table class="force-row" align="left" border="0" cellpadding="0" cellspacing="0" width="264">
+<tbody><tr>
+<td class="col" style="font-family: Helvetica,Arial,sans-serif; font-size: 14px; line-height: 20px; color: rgb(51, 51, 51); width: 100%;" valign="top">
+<p style="text-align: center;">
+<!-- Inline base63 image. Greetings to http://base64image.org -->
+<img src="data:image/jpeg;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAMAAAD04JH5AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyFpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNS1jMDE0IDc5LjE1MTQ4MSwgMjAxMy8wMy8xMy0xMjowOToxNSAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIChXaW5kb3dzKSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDpDOEUyM0FDNjI0MjkxMUU2QkUxRkNBNTNEOEZERkE5MCIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDpDOEUyM0FDNzI0MjkxMUU2QkUxRkNBNTNEOEZERkE5MCI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkM4RTIzQUM0MjQyOTExRTZCRTFGQ0E1M0Q4RkRGQTkwIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOkM4RTIzQUM1MjQyOTExRTZCRTFGQ0E1M0Q4RkRGQTkwIi8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+iomG7AAAAMBQTFRF2Nzh/dim//jFo2xhnmRZlFxQ/+Gy/ceN/JJmflRJ+vf3u6ai/7R6spB9+3VI/VYj//7+nnhq/+rC3OXs/7mA4tbU/0QJ/cuR1dba/08Z2tXX/2o7/4db/tKc/lEd/zoE//Tr6+Xj09jd/d6l/0sT/6GE/+PY07eVaDw4/+e6/sOx//r08/P1o2VZ/+S01efxb0Q9/9rP2c3J/+Kzzry1/6yS19rf/++9/0cP2tXY1f7/zv//plxN/7GZqFE8////sdfyJwAAAEB0Uk5T////////////////////////////////////////////////////////////////////////////////////AMJ7sUQAAASaSURBVHja7Nhtd6I4GAbgWMRIqygO6kRCsApWsFJtq9KZ7vj//9Wgxe3qYBIIoWf2cLf9lua5TMiLgP0XB1SAClABKkAFqAB/J+C5rara5Y9h3PVLAtxp19IelQF41Si5KwGgUdOWDBi1FTog4xhkBNwbGjt9eYBnjSd1aYB7jS/PsgB1TkBbEuCVs76mduUADF6A9igFcMtdP8s6AMU/gtIA/VP3q/m1rMoAzFf19rUoq5V0wLz+sLu5lt2DtpIMmCs3N37jJT2N3U3jKJAHWGlxDVpuHuZSAfMHev2XXaiuJAJWamP3QhWEO0MqwOiFDRZgLnEjmhs7LsC9nLNAjUeAA7DSVEmnYZt3BGQdxyNewEgSYG/wAQx5VzI+wL00wP5OYQMUqdfyVzbgVeoXkwV9Hzxsxgu5gAYz/3PAPmTVDyV/O+6xHoKeZMCYNQJjyYBFwY9A9vcDPr2+L/0VzbjYGcjxisYvcg3kAYxfihyAPC+pete34d6+DMC+d2UWwhz1cwG6jVSB/9ItCbCHtT83xNCf2mW9K16YrZp/MQi+b0PYLQ/QgnHJ8PPT96bQhMNFSYCxacaEYS30j+n5YQ22zCGEZQIOBAjtWhx7CFvH+qUB1tBMCP8GHupPZ7IB43WwaepEH5pnaZnH+sOajvTmJliPZQDWGw9bHYQQIe6gBc/Km8Njfbs1QAQdmljY+2ddKCDQ435dlMRpDs8//qF+PAOec2pxaKsHxQGa6CzO5xzEHx9+lIfDqe6cNSPNogD4vD5yo9bws3xSH07NyL1oiIsBeBfdIuJY9mV5aE8th1xKvSIAa3T5weJJwDY8Kw/tEDvoz6wLAOgp/boOnk4/q8fjP8WOm9JQFwfMSEq/xHV0GNZOj18thLrjpjVEM2HAJq3bgwBh054eY5vYdVB6NsIATNJ7JpHjWrgZB1uuE12pz14ITICFrsZ1HGdw+HOvNiGWKGBBkFA6C0HAGglmLQgIRAGBIOC0DUaDjDk9lp4gACebb9TJGDfZmLEgwErOvxEYZcnbdvRxNjKXAeBZBFH09vMpY36OouMskIUQ4GMRDDrbJ5AxT6Az4FkGgGcRDDpv2QFvCSAQAngJYJQdMEoAnhAAiwOwEMASBrCWAR0w7oiPQOdWAJCcBEIAxjIAPCeBGCAQAHgswHa7ZQI8AQBmACaTjz8qAAsALDpgAh673UcwoQIYy4AKGBMqYAK6x6QKPkeAvgwAz3XoGuDxA/BIB9CXAeC5DqUDtskAxEOwpQKC3ACvGICXG4CLmQKcG2ChIh5C+jIAHItAbBkyLkWA5zuB2EZEXwY0QMAaAdpe/F9AkBeAUBGHESJ5AbOCANSXBDRAt1MIgHS6eZfhhhQyApsCTkOBa7krcBruZ6c7IcgO2J7uhDORW/EYuy5yo0H/x7eM+dGPosO/4lvmrfiWkngtYosQR59sv2cK+K47hFg4YPUP+oZCiWEYbWW5rP96VzLm/ddyuVSMNrV7xeiDuFmdI6qqvmf5VdXjvyn0XuPigKv8oW2m3yV3t4wpkJ14CvZfnApQASpABagAFeDLAb8FGABKha2X/VHtRwAAAABJRU5ErkJggg==" alt="Employee" style="display: block;" align="middle">
+
+
+</p>
+</td>
+</tr>
+</tbody></table>
+<!--[if mso]></td><td width="50%" valign="top"><![endif]-->
+<table class="force-row" align="right" border="0" cellpadding="0" cellspacing="0" width="264">
+<tbody><tr>
+<td class="col" style="font-family: Helvetica,Arial,sans-serif; font-size: 14px; line-height: 20px; text-align: left; color: rgb(68, 68, 68); width: 100%;" valign="middle">
+<p>
+<!--img align="center" src="data:image/jpeg;base64," alt="Employee" style="align: middle;" /-->
+</p><div class="mail16" style="float: left;">&nbsp;</div>&nbsp; mail@contact.com <br>
+<!--img align="center" src="data:image/jpeg;base64," alt="Employee" style="align: middle;" /-->
+<div class="telegram16" style="float: left;">&nbsp;</div>&nbsp; Twitter:@twitter <br>
+<!--img align="center" src="data:image/jpeg;base64," alt="Employee" style="align: middle;" /-->
+<div class="location16" style="float: left;">&nbsp;</div>&nbsp; Direction Gaia
+
+</td>
+</tr>
+</tbody></table>
+<!--[if mso]></td></tr></table><![endif]-->
+</td>
+</tr>
+<tr>
+<td>
+<div class="subtitle" align="center" style="padding-bottom:20px;font-family: Helvetica,Arial,sans-serif; font-size: 24px; font-weight: 600; color: rgb(36, 105, 160);">
+TITULO - EMPRESA- TITULAR...
+</div>	
+</td>
+</tr>
+<tr>
+<td style="padding: 20px 30px 40px;" bgcolor="#ffffff">
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tbody>
+<tr>
+<td style="padding: 20px 0pt; color: rgb(21, 54, 67); font-family: Arial,sans-serif; font-size: 12px; line-height: 20px; text-align: justify;">
+<p>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. In tempus adipiscing felis, sit amet blandit ipsum volutpat sed. Morbi porttitor, eget accumsan dictum, nisi libero ultricies ipsum, in posuere mauris neque at erat.
+</p>
+</td>
+</tr>
+<tr>
+<td>
+<div class="hr" style="border-bottom: 2px solid rgb(204, 204, 204); height: 1px;">&nbsp;</div>
+<br>
+<div style="font-family: Arial,sans-serif; font-size: 16px; text-align: center; font-weight: bold;"><big>BIG INFO</big></div>
+<br>
+<div class="hr" style="border-bottom: 2px solid rgb(204, 204, 204); height: 1px;">&nbsp;</div>
+<br>
+<!-- ******* INICIO 2 COLUMNAS ******** -->
+<!--[if mso]>
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr><td width="50%" valign="top"><![endif]-->
+<table width="264" border="0" cellpadding="0" cellspacing="0" align="left" class="force-row">
+<!--tr>
+<td>
+<img src="images/left.gif" alt="" width="100%" height="140" style="display: block;" />
+</td>
+</tr-->
+<tbody>
+<tr>
+<td style="background-color:#0c0;">&nbsp;</td>
+<td style="padding: 5px 5pt 10pt; color: rgb(21, 54, 67); font-family: Arial,sans-serif; font-size: 14px; line-height: 20px; text-align: justify;">
+
+<strong>Subtitle</strong>
+<div style="border-bottom: 1px solid rgb(204, 204, 204); padding: 1px 0pt 0pt; height: 1px;">&nbsp;</div>
+<br>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. In tempus adipiscing felis, sit amet blandit ipsum volutpat sed. Morbi porttitor, eget accumsan dictum, nisi libero ultricies ipsum, in posuere mauris neque at erat.
+</td>
+</tr>
+<tr>
+<td style="background-color:#00c;">&nbsp;</td>
+<td style="padding: 5px 5pt 10pt; color: rgb(21, 54, 67); font-family: Arial,sans-serif; font-size: 14px; line-height: 20px; text-align: justify;">
+<strong>Subtitle</strong>
+<div style="border-bottom: 1px solid rgb(204, 204, 204); padding: 1px 0pt 0pt; height: 1px;">&nbsp;</div>
+<br>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. In tempus adipiscing felis, sit amet blandit ipsum volutpat sed. Morbi porttitor, eget accumsan dictum, nisi libero ultricies ipsum, in posuere mauris neque at erat.
+<br>
+</td>
+</tr>
+<tr>
+<td style="background-color:#c00;">&nbsp;</td>
+<td style="padding: 5px 5pt 10pt; color: rgb(21, 54, 67); font-family: Arial,sans-serif; font-size: 14px; line-height: 20px; text-align: justify;">
+<strong>Subtitle</strong>
+<div style="border-bottom: 1px solid rgb(204, 204, 204); padding: 1px 0pt 0pt; height: 1px;">&nbsp;</div>
+<p>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. In tempus adipiscing felis, sit amet blandit ipsum volutpat sed. Morbi porttitor, eget accumsan dictum, nisi libero ultricies ipsum, in posuere mauris neque at erat.
+</p>
+<p>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. In tempus adipiscing felis, sit amet blandit ipsum volutpat sed. Morbi porttitor, eget accumsan dictum, nisi libero ultricies ipsum, in posuere mauris neque at erat.
+</p>
+</td>
+</tr>
+<tr>
+<td style="background-color:#0c0;">&nbsp;</td>
+<td style="padding: 5px 5pt 0pt; color: rgb(21, 54, 67); font-family: Arial,sans-serif; font-size: 14px; line-height: 20px; text-align: justify;">
+<strong>Subtitle</strong>
+<div style="border-bottom: 1px solid rgb(204, 204, 204); padding: 1px 0pt 0pt; height: 1px;">&nbsp;</div>
+<br>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. In tempus adipiscing felis, sit amet blandit ipsum volutpat sed. Morbi porttitor, eget accumsan dictum, nisi libero ultricies ipsum, in posuere mauris neque at erat.
+</td>
+</tr>
+</tbody></table> <!--FIN COLUMNA 1-->
+<table width="264" border="0" cellpadding="0" cellspacing="0" align="right" class="force-row">
+<tr>
+<td>
+<!--img src="images.gif" alt="" width="100%" height="140" style="display: block;" / -->
+</td>
+</tr>
+<tr>
+<td style="padding: 25px 0 0 0; color: #153643; font-family: Arial, sans-serif; font-size: 16px; line-height: 20px;">
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. In tempus adipiscing felis, sit amet blandit ipsum volutpat sed. Morbi porttitor, eget accumsan dictum, nisi libero ultricies ipsum, in posuere mauris neque at erat.
+</td>
+</tr>
+</table> <!--FIN COLUMNA 2-->
+<!--[if mso]></td></tr></table><![endif]-->
+</td>
+</tr>
+</tbody></table> <!-- FIN 2 COLUMNAS -->
+<!-- TEXTO INFO PIE DE TABLA - 1 COLUMNA -->
+<br><div style="border-bottom: 1px solid rgb(204, 204, 204); padding: 1px 0pt 0pt; height: 1px;">&nbsp;</div><br>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. In tempus adipiscing felis, sit amet blandit ipsum volutpat sed. Morbi porttitor, eget accumsan dictum, nisi libero ultricies ipsum, in posuere mauris neque at erat.
+</td>
+</tr>
+<tr>
+<td style="padding: 20px;" bgcolor="#ee8888">
+<!-- PIE DE TABLA -->
+<table id="contacto" border="0" cellpadding="0" cellspacing="0" width="100%">
+<tbody><tr>
+<td style="color: rgb(68, 68, 68); font-family: Arial,sans-serif; font-size: 14px;" width="75%">
+	Para mas información:
+	<br>
+	® 2016
+</td>
+<td align="right" width="25%">
+<table border="0" cellpadding="0" cellspacing="0">
+<tbody><tr>
+<td style="font-family: Arial,sans-serif; font-size: 12px; font-weight: bold;">
+<a href="https://twitter.com/" style="color: rgb(255, 255, 255);">
+<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAADxElEQVRYR7WXSUiVURTHf4KJjQg5pOhGTZTIEBW1pSPkgAg2LNMixIVGZBkSikKZBW4EK8lVtSvECXMAkdREpJcUgmkLRcISyyxzAON8vO/13vObfOjZfd8953//90z3XC+sy1EgB0gFzgDhwDG7+U/gC2AD+oFO4JcVaC8LSlHAbeAicNCCvqj8AV4C94HPRjZGBGSzWqAM8La4sbvaJtAI3AX+amHoETgJvAZOebixu9kHoACYcV/QIhAH9AABe7S5CrMIZNrzxAHtTkBO/nYfNncmcdbZE84EDgFje+h2PQdKOJLUnHAm8BC4scdu14N7ANySRZWAlNpHT7Pdx8eHjIwM/P39GR4eZnp62uwcUh0xEgqVwDPgspZVWVkZra2trKysaIKGh4fT09NDZGSksr69vU1DQwPj4+Okp6dTWlrK1taWlm0LcFUISDf7qtdkZmdnWVhYIDc3l+Xl5R1Ao6OjJCVJSF1ldXWVyspK+vr6mJqa0iLwGzghBC4BL/R8NjMzg5xSiBQVFTE4OOhQlVMbubu3t5ecnBw2Njb04C8IgafAFT2NlpYWiouLHcvd3d3Iv/7+fmJiYhgZGdE0nZ+fJyIiwmhzsXssBKT0EvUIJCYm0tbWRnBwsIuKxHppaUlJPC2ZnJwkNjbWLBlHhcB34LiepsQvKCgIPz8/MzCX9a6uLrKzs81sFoWABOiAnmZtbS1VVVVmQDvWq6urqampMbPbMCXg6+tLZ2cnqakyBliX+Ph4JiYmzAwUAt8A7UDazbOysqirqyMhIcEMUFkfGxvTLE0NYyUEhkkoRsnJyQwNDeHtbW0sSEtLY2BgwApZJQkNy1BFycvLo6mpidDQUEPg5uZmSkpKrGzuKEMZtWR8MpWoqCilJKOjozV1Ozo6KCgoYHNTWr0lOS8ekGFTWrFcxy4SEhKi1HJYWBiZmZnk5+drhkF6QmNjIxUVFXp9X4uNtOIg9TKSi+F/u3NSLywspLy8nJSUFLy8XOeXtbU12tvbqa+vt5Lx7iSeANdURLnKPhn1g4CAAOLi4ggMDGR9fZ25uTlsNhtCwgOR3iPX8azzkWRIuOkBmCcm94A7YuhMQMbwd8BpTxB3YfNeKhtYdycg3xHAMBC4C8DdqEqyy1AqryhFtMZyeXa92QcSsnkWIEOpQ/QeJuKJV4DpfWrx+OJ2eZg4Tm7kAXXNF5Dr7LpRdZgQkGx/ZMdRYu4uVh6n4g15nMrodtjiiaXJPAfqpdSMbKwQUO2PAOfcnufqlPLDvpH6PO8ChISp/AMhmAh0PL7qpgAAAABJRU5ErkJggg==" alt="Twitter" style="display: block;" border="0" height="38" width="38">
+</a>
+</td>
+<td style="font-size: 0pt; line-height: 0pt;" width="20">&nbsp;</td>
+<td style="font-family: Arial,sans-serif; font-size: 12px; font-weight: bold;">
+<a href="https://www.facebook.com/" style="color: rgb(255, 255, 255);">
+<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAADDUlEQVRYR7WXS0hUYRTHfyMNZtNk2GsWLqQXRlS0iIaWLQwyUFv0WIZmCIpERNEiiBZlFASC0MNZiNXKdGFBYe6KamMFtZC0hQjhqJRDURNC/C9zx9t1nDljM2d3+c7j953vfOeeL4BdwsAR4CCwB9gMrEmZfwe+AO+BF8ATIGFxHTAobQcuAieAMoO+VH4Cj4DrwOdsNtkAFOwq0A6sMAb2q/0BbgOXgV+ZfCwFsA3oB3YuM7Df7ANwFBjzL2QC2As8AzYUKLjrZgqoSdVJ2rUfQDt/WYTgXogD3kx4AVYBb/NJe2lpKdXV1ZSVLdTm6Ogos7Oz2ZKn49jv1oQX4CZwzpr22tpaenp6qKio+MekoaGBgYGBXG5uABek5ALoqn20Vns4HGZiYoLy8vJFgYwAuh07dBQuQAw4lQvbXdfuBwcH0+ozMzNMT087362trQwNDVlc3QdOC0Dd7GseTYaWlha6urqcICMjI0SjUZLJpCWoV+cHEBHASeBhPtbaZWdnp2MSi8VobGzMx9yre1wA94Ami4dgMEgoFKK5uZmOjg7HpLe3l7a2trR5IpFgfn7e4k46dwSgq7fPYlFfX09/vxrk0qLCnJubs7iTzmsBqHrWWSxyAUxOTlJZWWlx5epMCUDVE7RY1dXV0dfXR0lJCYHAQgtxUz48PExNjbqtWZJ5AbhuvUXY3d1NU5OphDJROQBxYL2ZOXXX3VvwnwDOEZiLsAgZcIrQfA2LAOBcQ41aGp/MUsAaOCYADZtqxfodm6RAAGrFm9y7pB+DuZ8WCOAucMYF2Ap8svaDAgCo9+h3PO4dSDQknLecQQEArgGXFMsLoLnqDbArF0QkEqGqqspRi8fjjI0tGnazuXgHRIHffgB9bwFeARtzQSxzXcWuoVSvKEcyjeV6dj0vAoSCHwI0lKZlqYeJMvEY2L3MnfrNlHY9TNI7z5YBd20lcAU4a70dGWBV7bdSfpwz94vlcaps6HGq0S1kzIiazANAY9N4NhsLgGu/Gjjse56vTS1+SwVyn+dPAUHklL9LWOFly5kUPgAAAABJRU5ErkJggg==" alt="Facebook" style="display: block;" border="0" height="38" width="38">
+</a>
+</td>
+<td style="font-size: 0pt; line-height: 0pt;" width="20">&nbsp;</td>
+<td style="font-family: Arial,sans-serif; font-size: 12px; font-weight: bold;">
+<a href="https://www.linkedin.com/" style="color: rgb(255, 255, 255);">
+<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAADbklEQVRYR7WXTUhUURSAP6Fw7A+xv9mpOQUaFaFRpAttkZAtpEVjIIJMIYiQwzgYLQZCoR9N24hkGoJU6qJxYUFCuDGpBJmCAqExN4pYi0KTMoQ4t3mPaXrv+XSeZ3ffvfec7517zrnnpmBfdgLngTPAMeAAsCu2/TvwGXgHvASeAYt2VKfYWHQIuAZUAGk21suSZeAJcAv4ZLXHCkCMNQFXgS02DScu+w3cA0LATyMdZgAHgTBweIOGE7e9By4A0cQJI4DjwAtgr0PGNTULwNlYnOiqEwHkz19tgvF4iNPxnogH2Aa8ddDtZg6U4zipxUQ8QCsQcNjtZuruAI0yqQFIqn0wi/aSkhIyMjIYGhpidXXVCUbJjlw5Cg3gIVBtpLmsrIzh4WE1FQqFaGqSzHREuoErAiDVbN6syPh8Prq7ZS10dnZSW1vriHXgB+AWgEvAYzOtLpeL5uZm0tPTlQfm5uacAhA9XgF4AFx2Uus6dN0XAEm9E2abcnJykCAUiUajjI6OUlBQQHFxsfo2OTnJ0tISjY2NeDwe5ufn6enpYXBw0A7HawH4Cuw2W11ZWUlfX5+aHhgYoKKiAr/fT1tbm/o2Pj5Ofn4+qamp/6gIBoO0tkpmW8qCAKwAW9cDUF9fT3t7u75FPDA1NUVeXh5paX8vzOXlZdxuN4uLlrfyStIA4nI5ktnZWTIzM4lEIipgRUpLSxkZGbFygQL4AuzZqAe6urqoqanRt4fDYcrLy9W4qqpKPz4T/eoILIPQKAbij6Cjo4O6ujpdf39/P16vV42rq6vp7e218oAKQss0XCsIkwRQaSitlrRPhmIEEAgE9AhPEuCiAEizKaVYruP/ZBMBpBTv1y4jKfY+uwANDQ20tLSo5Ul4oAuo0QA8wEejepCdnU1hYaEyNjMzw9jYGLm5uar4iEj+T0xM6OxFRUVkZWWpsRSp6elpo/+S2iPX8XR8QyJNQtAqZB2cuwlcF33xAFLC3gBHHDRkpCoCnAJ+JQLIOEc8B+zbJAgJdmlK5RWlxKgtl2eX1E+nIcR4KSBNqS5mDxPxxFPgqEOeELfLw0T/cysPaHMu4Abgt7ot1wCUaL8b06POPFHsPE7FG/I4ldZtu02PSJF5BNyWVLPaYwdA278DOJfwPP9778K3mCHtef481nSuyfsHwfM7dGJri0sAAAAASUVORK5CYII=" alt="Linkedin" style="display: block;" border="0" height="38" width="38">
+</a>
+</td>
+</tr>
+</tbody></table>
+</td>
+</tr>
+</tbody></table> <!-- FIN PIE DE TABLA -->
+</td> </tr>
+<tr>
+<td class="container-padding footer-text" style="border-style: hidden; font-family: Helvetica,Arial,sans-serif; font-size: 12px; line-height: 16px; color: rgb(170, 170, 170); padding-left: 15px; padding-right: 15px;" align="left">
+<br>
+Puede contactar personalmente en:
+<br>
+<!--img align="center" src="data:image/jpeg;base64," alt="Employee" style="align: middle;" /-->
+<div class="telf16" style="float: left;">&nbsp;</div>&nbsp; A través del teléfono: <strong>034 11 111 111</strong> <br>
+<div class="mail16" style="float: left;">&nbsp;</div>&nbsp; Por email en: <a href="mailto:mail@contact.com" style="color: rgb(170, 170, 170);">mail@contact.com</a>
+<!--br>
+<strong>Nombre Empresa</strong><br>
+<span class="ios-footer">
+Direccion<br>
+Springfield, loquesea<br>
+</span>
+<a href="http://www.acme-inc.com" style="color:#aaaaaa">www.acme-inc.com</a><br>
+<br-->
+<br><br>
+<div style="border-bottom: 1px solid rgb(204, 204, 204); padding: 1px 0pt 0pt; height: 1px;">&nbsp;</div><br>
+Agradecimiento:<br>
+<a href="https://www.iconfinder.com" target="_blank" style="color: rgb(170, 170, 170);">https://www.iconfinder.com</a> por los iconos.
+<br>
+Original inspiration from: <a href="https://github.com/InterNations/antwort" >https://github.com/InterNations/antwort</a>
+<br>
+Image to Base64 conversor: <a href="http://base64image.org">http://base64image.org</a>
+</td>
+</tr>
+<tr>
+<td class="container-padding footer-text" style="border-style: hidden; font-family: Helvetica,Arial,sans-serif; font-size: 12px; line-height: 16px; color: rgb(170, 170, 170); padding-left: 24px; padding-right: 24px;" align="right">
+<a href="#inicio" style="color: rgb(136, 136, 136);">ir arriba</a>
+</td>
+</tr>
+</tbody></table><!--TABLE FOOTER-->
+</td></tr></tbody></table>
+</body></html>
